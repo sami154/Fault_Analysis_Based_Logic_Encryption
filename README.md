@@ -1,4 +1,4 @@
-About the Project:
+**About the Project**
 
 Logic encryption of an IC with additional gate insertion is a well-known countermeasure against IC piracy, which hides the functionality and the implementation of a design by inserting some additional gates called “key-gates” into the original design. The valid key must be supplied to the encrypted design to exhibit its correct functionality (produce correct outputs). Upon applying a wrong key, the encrypted design will show a wrong functionality (produce wrong outputs). 
 
@@ -10,12 +10,12 @@ For Mux-based encryption, fault propagation and fault-masking are similar to the
 
 For more information, please read the paper [1] in the reference section.
 
-There are two tool has been developed.
+**There are two tool has been developed.**
 
 1. XOR key gate insertion tool -- Readme file on how to run the tool is located inside XOR folder.
 2. MUX key gate insertion tool -- Readme file on how to run the tool is located inside MUX folder.
 
 
-Reference:
+**Reference:**
 
 1. J. Rajendran et al., "Fault Analysis-Based Logic Encryption," in IEEE Transactions on Computers, vol. 64, no. 2, pp. 410-424, Feb. 2015, doi: 10.1109/TC.2013.193.
